@@ -1,6 +1,6 @@
 Package: cwdata
 Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Version: 0.1.0
 Authors@R: 
     person(given = "Tina",
            family = "Tsou",
@@ -15,3 +15,5 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
 URL: https://github.com/ttsou87/cwdata
 BugReports: https://github.com/ttsou87/cwdata/issues
+Depends: 
+    R (>= 2.10)

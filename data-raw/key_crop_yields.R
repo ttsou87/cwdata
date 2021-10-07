@@ -8,7 +8,7 @@ url <- 'https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/dat
 key_crop_yields <- read_csv(url) %>%
   clean_names() %>%
   pivot_longer(
-    cols = -___,
+    cols = ends_with("tonnes_per_hectare"),
     names_to = "crop",
     values_to = "tonnes_per_hectare",
     names_pattern = "([^_]+)"
